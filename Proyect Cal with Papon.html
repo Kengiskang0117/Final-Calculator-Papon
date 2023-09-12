@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora PLUS</title>
+    <link rel="stylesheet" type="text/css" href="Stylishcal.css">
+</head>
+<body>
+    <h1>CALCULADORA PLUS</h1>
+    <div id="container">
+        
+        <form name="Calculadora">
+            <input type="textfield" name="Camp" value="" autocomplete="off" readonly>
+            <input type="button" value="7" onclick="document.Calculadora.Camp.value += '7'">
+            <input type="button" value="8" onclick="document.Calculadora.Camp.value += '8'">
+            <input type="button" value="9" onclick="document.Calculadora.Camp.value += '9'">
+            <input type="button" value="/" onclick="document.Calculadora.Camp.value += '/'">
+
+            <input type="button" value="4" onclick="document.Calculadora.Camp.value += '4'">
+            <input type="button" value="5" onclick="document.Calculadora.Camp.value += '5'">
+            <input type="button" value="6" onclick="document.Calculadora.Camp.value += '6'">
+            <input type="button" value="X" onclick="document.Calculadora.Camp.value += '*'">
+
+            <input type="button" value="1" onclick="document.Calculadora.Camp.value += '1'"> 
+            <input type="button" value="2" onclick="document.Calculadora.Camp.value += '2'">
+            <input type="button" value="3" onclick="document.Calculadora.Camp.value += '3'">
+            <input type="button" value="+" onclick="document.Calculadora.Camp.value += '+'">
+
+            <input type="button" value="0" onclick="document.Calculadora.Camp.value += '0'">
+            <input type="button" value="=" onclick="document.Calculadora.Camp.value = eval(document.Calculadora.Camp.value)">
+            <input type="reset" value="C">
+            <input type="button" value="-" onclick="document.Calculadora.Camp.value += '-'">
+
+
+        </form>
+
+    </div>
+ 
+    <script src="papon java.js"></script>
+    <footer>
+		<p>&copy; Made by <i><b>Kengis</b></i> A.K.A Kenmake. All rights reserved.</p>
+	</footer>
+</body>
+</html>
